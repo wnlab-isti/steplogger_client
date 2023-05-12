@@ -8,8 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <service
-            android:name="it.cnr.isti.steploggerclient.StepLoggerClientService"
-            android:exported="false" >
+            android:name="it.cnr.isti.steploggerclient.StepLoggerClientService">
         </service>
 
         <activity
