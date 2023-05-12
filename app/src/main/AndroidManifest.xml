@@ -14,7 +14,8 @@
 
         <activity
             android:name="it.cnr.isti.steploggerclient.StepLoggerClientActivity"
-            android:label="@string/title_activity_dummy" >
+            android:label="@string/title_activity_dummy"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
